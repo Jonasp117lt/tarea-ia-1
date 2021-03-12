@@ -4,7 +4,6 @@
 
 def aspiradora():
     cuarto_estado = {'A': '0', 'B': '0'}
-    #  cost = 0
 
     localizacion_inicial = input("Ingrese la localizacion de la aspiradora: ")  # user_input of location vacuum is placed
     estado = input("Ingrese el estado de: " + localizacion_inicial)  # user_input if location is dirty or clean
